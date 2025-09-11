@@ -39,11 +39,7 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
     publishing:
-      email:
-        recipients: []
-        notify:
-          success: true
-          failure: false
+    # email 通知已移除
       app_store_connect:
         auth: integration
         submit_to_testflight: true

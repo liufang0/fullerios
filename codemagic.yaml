@@ -40,8 +40,7 @@ workflows:
       - flutter_drive.log
     publishing:
       email:
-        recipients:
-          - 你的邮箱@example.com
+    recipients: []
         notify:
           success: true
           failure: false
